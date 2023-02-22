@@ -1,32 +1,553 @@
 <!DOCTYPE html>
-<html>
-    <header>
-        <h1>
-            RYAN CHISHOLM'S WEBSITE
-        </h1>
-        <h2>
-            This Website is Currently Under Development
-            <br>
-        </h2>
-    </header>
-    <body>
-        <p1><b>Check out my </b><a href = "https://github.com/Chisholm6192"><b>GitHub </b></a><b>for updates and other projects.</b><br></p1>
+<html lang="en">
 
-        <p2><b>Check out my </b><a href = "https://www.linkedin.com/in/ryan-chisholm-8639b3239/"><b>Linkedin</b></a><b> for other updates and to find oout what I am up to!</b><br></p2>
-    </body>
-    <style>
-        h1{
-            text-align : center;
-            color : red;
-        }
-        h2{
-            size : 120px;
-            text-align : center;
-        }
-        body {
-            text-align : center;
-            line-height : 30px;
-        }
-    </style>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ryan Chisholm - Home</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Ryan Chisholm</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/grad_pic-circular.png" alt="" width="380">
+                    <div class="intro-text">
+                        <span class="name">Hi, I'm Ryan!</span>
+                        <hr class="star-light">
+                        <span class="skills">
+                            <p>Software Developer - University Student <br>
+                            Computer Science at Wilfrid Laurier University</p>
+                            <a>Frontend, Backend, Web and Mobile Developer</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i> <br><br>
+                                Laurier Computing Society <br>Mobile App
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lcs_logo.png" class="img-responsive" alt="" width='400'>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i> <br><br>
+                                Climate Change Analysis <br>Data Analytics
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Climate Change Analysis.JPG" class="img-responsive" alt="" style="border:5px solid #2C3E50;">
+                    </a>
+                </div>
+                <!-- Remaining Portfolio Models -->
+                <!--<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I grew up in Milton, Ontario and I am currently a first year student at Wilfrid Laurier University, pursuing an honors BSc in Computer with a Business Option</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>I have experience using many different programming languages, frameworks and libraries. Such as: <b>Java, JavaScript, Python, C#, C++, R, HTML, CSS, React JS, React Native, Bootstrap, NET Core, Flask and Node.JS</b> just to name a few</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <!-- <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Contact Me</h3>
+                        <p>RyanChisholmMW@gmail.com
+                            <br>+1 (416) 571 - 2014</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/Chisholm6192" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/ryan-chisholm-wlu/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/users/20256386/chisholm6192" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="https://www.instagram.com/04ryanchisholm/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="img/content/Resume(NEW).pdf" class="btn-social btn-outline"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Ryan Chisholm</h3>
+                        <p>
+                            <a>
+                                - Web Development 
+                                <br>
+                                - Mobile Development 
+                                <br>
+                                - Fullstack Development 
+                                <br>
+                                - Data Analytics 
+                                <br>
+                                - AI & Machine Learning
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Ryan Chisholm 2023
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Laurier Computing Society <br> Mobile App</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/lcs_logo.png" class="img-responsive img-centered" alt="" width="300">
+                            <p>This is a mobile app developed by myself and 2 other students and members of the Laurier Computing Society. The application was developed using <b>React Native</b>, and will be available on both the <b>Google Play Store</b> and <b>App Store</b> in a few weeks. It features a <b>user authentication login system</b> where users can create an account and have their credentials saved in our database, as well as chat with other users using our <b>chatroom / personal messaging feature</b>. The app also features a live youtube and twitch API to allow students watch any events hosted by the Laurier Computing Society live through their mobile devices. Finally it features a live news feed where moderators can upload news articles and content from the webpage. The backend is built using a firebase real time database system which allows for data to be uploaded and removed from the database in seconds, with live refresh to the app there are real-time updates that allow for the app to show current and relevant data.</p>
+                            <br><br>
+                            <p align="left">Contributions:
+                                <br>
+                                - Development and implementation of database
+                                <br>
+                                - Development of clickable image and clickable link components
+                                <br>
+                                - Development of resources page and backend webpage for data uploads
+                            </p>
+                            <br>
+                            <p align="left">Skills:
+                                <br>
+                                - Mobile App Development
+                                <br>
+                                - React Native 
+                                <br>
+                                - Database Development 
+                                <br>
+                                - Data Security/Cyber Security 
+                                <br>
+                                - Mobile UI Design
+                            </p>
+                            <br>
+                            <br>
+                            <video width='300' height='500' controls>
+                                <source src="img/content/LCS_App_Demo_vid.mp4" type="video/mp4">
+                            </video>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong>
+                                        Laurier Computing Society - Mobile App Development
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong>
+                                        October 2022 - February 2023
+                                    </strong>
+                                </li>
+                                <br>
+                                <li>
+                                    <strong>
+                                        <a  style='color:black;' href="https://github.com/Chisholm6192/LCS_App">Github Repo<i class="fa fa-fw fa-github"></i></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Climate Change Analysis - Data Analytics</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Climate Change Analysis.JPG" class="img-responsive img-centered" alt="" width="500">
+                            <p>This is a project built for to showcase my knowledge of <b>data science</b> and <b>analytics</b>. Designed by myself and a few others from my Data Science class. This project uses data from Wilfrid Laurier Universities library databases for student usage. The data consists of excel spreadsheets with data from <b>1980</b> onwards about bio fuel production, petro liquid production, electricity, natural resource usage and natural gas production and consumption, as well as data about the quality of oxygen around the world and the state of the icecaps (data about sizes and melting rates over the years). Initially working with very untidy and very sofisticated data, one of the main pieces was to clean it up so it was computable and readable. Once the data was organized and empty/missing and useless data was removed, I was able to plot the trends of ice caps levels in comparison to worldwide production of bio fuels, petro liquids and overall polution levels over the years. The data was loaded into <b>RStudio</b> (an IDE for R code), and <b>written in R</b>, using the <b>tidyverse library</b> for data tidying and for graphing purposes. The final analysis/conclusion from the project was that pollution levels do indeed lead to increases in temperature and changes in climate globally.</p>
+                            <br><br>
+                            <p align="left">Contributions:
+                                <br>
+                                - Tidying and implementation of datasets into project
+                                <br>
+                                - Data Sorting
+                                <br>
+                                - Data plotting and graphing/computing data 
+                                <br>
+                                - Analysis of data and creation of hypothesis
+                            </p>
+                            <br>
+                            <p align="left">Skills:
+                                <br> 
+                                - R Programming language
+                                <br>
+                                - Tidyverse data wrangling framework/library
+                                <br>
+                                - Data Wrangling/Tidying 
+                                <br>
+                                - Data Anlaytics 
+                                <br>
+                                - Data Modeling and Model Training
+                            </p>
+                            <br>
+                            <br>
+                            <a style="color : black;"><strong>Full Report HTML file</strong></a> <br>
+                            <a href="img/Content/Climate Change Analysis Report.html" class="btn-portfolio btn-outline-portfolio"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong>
+                                        Data Analytics - R Programming
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong>
+                                        November 2022 - December 2022
+                                    </strong>
+                                </li>
+                                <br>
+                                <li>
+                                    <strong>
+                                        <a style="color : black;" href="https://github.com/Chisholm6192/Data-Science-Climate-Change-Analysis">Github Repo<i class="fa fa-fw fa-github"></i></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Remaining Portfolio Models -->
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
 
 </html>
