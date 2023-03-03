@@ -1,3 +1,2 @@
 # Welcome to my Personal Portfolio Website #
-### Site is built using bootstrap using basuc HTML, CSS and JS
-### Hosted using Github Pages ###
+### The site has some of my projects with more in depth descriptions and other media and working demos you can check out! ###
